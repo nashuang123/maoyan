@@ -1,0 +1,383 @@
+
+/* --------------------------------------container-------------------------------------------------- */
+.container{
+	width: 1200px;
+	height:2130px;
+	margin: 81px auto 0;
+	overflow: hidden;
+	/* background: #333333; */
+}
+.main1{
+	width:100%;
+	height:650px;
+	margin: 0 auto;
+	/* background: red; */
+	margin-top: 30px;
+}
+.main11{
+	width:750px;
+	height:100%;
+	float: left;
+/* 	background: green; */
+}
+.title{
+	padding-left: 20px;
+	height:35px;
+	font-size: 26px;
+	color: #ef4238;
+	margin-top: 30px;
+}
+.title span{
+	float: left;
+}
+.title a{
+	font-size: 14px;
+	color: #EF4238;
+	float: right;
+	margin-top: 10px;
+}
+.title b{
+	display: inline-block;
+	margin-left: 20px;
+}
+.title b a{
+	float: none;
+	display: inline-block;
+	margin-right: 10px;
+	font-weight: 100;
+	color: #000;
+	
+}
+.title b a:hover{
+	text-decoration: underline;
+}
+.title i{
+	font-style: normal;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.moves{
+	padding-left: 20px;
+}
+.moves li{
+	float: left;
+	margin: 30px 23px 0 0;
+	position: relative;
+	
+}
+.moves .dd{
+	content: "";
+	background: url(../img/3d1.png);
+	position: absolute;
+	width:69px;
+	height:25px;
+	top:0;
+	left: 0;
+}
+
+.bg{
+	position: absolute;
+	top:0;
+	left:1px;
+	width:160px;
+	height:220px;
+	background: url(../img/bg.png) bottom repeat-x;
+}
+.moves span{
+	display: block;
+	width:160px;
+	height:39px;
+	font-size: 14px;
+	line-height: 39px;
+	text-align: center;
+	color:#EF4238;
+	border:1px solid #eee;
+	border-top: none;
+	cursor: pointer;
+}
+.moves span:hover{
+	background: #EF4238;
+	color: #fff;
+}
+.moves i{
+	display: block;
+	width:159px;
+	height:30px;
+	position: absolute;
+	bottom:0px;
+	left:0;
+	font-size: 16px;
+	color: #fff;
+	font-style: normal;
+	text-indent: 10px;
+}
+.moves strong{
+	font-weight: 100;
+	float: right;
+	margin-right: 10px;
+}
+.moves em{
+	color: #ffb400;
+	font-size: 18px;
+}
+.moves .look{
+	width: 150px;
+	height:34px;
+	color: #ffb400;
+    background-color: #fbfbfb;
+    text-align: left;
+    padding-left: 10px;
+	border-bottom: none;
+}
+.moves .look:hover{
+	background: #fbfbfb;
+	color: #ffb400;
+}
+.moves .mai{
+	width:160px;
+	height:39px;
+}
+.moves .mai:hover{
+	background: none;
+}
+.mai b{
+	display: inline-block;
+	width:80px;
+	color: #2d98f3;
+	font-weight: 100;
+}
+.mai b:nth-of-type(1){
+	color: #aaa;
+	border-right: 1px dashed #eee;
+	box-sizing: border-box;
+}
+.mai b:nth-of-type(2):hover{
+	background: #2D98F3;
+	color: #fff;
+}
+.moves p{
+	width:100%;
+	text-align: center;
+	color: #aaa;
+	font-size: 14px;
+	margin-top: 5px;
+}
+.main12{
+	float: left;
+	margin-left: 70px;
+}
+.winner{
+	width:360px;
+	height:78px;
+	padding-left: 20px;
+	margin-top: 30px;
+	position: relative;
+}
+.win1{
+	width:22px;
+	height:25px;
+	background: url(../img/win1.jpg);
+	position: absolute;
+	top:0;
+	left:20px;
+}
+.win2{
+	width:22px;
+	height:25px;
+	background: url(../img/win2.png);
+	position: absolute;
+	top:0;
+	left:20px;
+}
+.forword{
+	height:194px;
+}
+.winner a{
+	display: block;
+	float: left;
+}
+.winner1{
+	width:238px;
+	height:78px;
+	border: 1px solid #eee;
+}
+.forword1{
+	height:194px;
+	width:218px;
+	float: left;
+}
+.forword1 b{
+	font-size: 16px;
+	color: #aaa;
+	font-weight: 100;
+	margin-left: 10px;
+}
+.forword1 .yellow{
+	color: #ffb400;
+}
+.winner1:hover{
+	background: #f7f7f7;
+}
+.winner1 span{
+	display: block;
+	font-size: 18px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.winner1 i{
+	display: block;
+	margin-top: 10px;
+	color:#EF4238;
+	font-style: normal;
+	margin-left: 10px;
+}
+.wrap{
+	padding-left: 20px;
+	height:175px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.second,.third{
+	width:170px;
+	height:183px;
+	float: left;
+	position: relative;
+}
+.second{
+	margin-right: 18px;
+}
+.second1,.third1{
+	display: block;
+	height:65px;
+	width:170px;
+	border: 1px solid #eee;
+	
+}
+.win3{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #ffb400;
+	color: #fff;
+	font-size: 18px;
+	display: block;
+	width:22px;
+	height:22px;
+	text-align: center;
+	line-height: 20px;
+}
+.win4{
+	width:22px;
+	height:25px;
+	position: absolute;
+	top:0;
+	left:20px;
+	background: url(../img/win3.jpg);
+}
+.second1 span,.third1 span{
+	margin-left: 10px;
+	margin-top: 8px;
+	display: block;
+	font-size: 18px;
+}
+.second1 i,.third1 i{
+	font-style: normal;
+	display: inline-block;
+	color: #fdb863;
+	margin-left: 10px;
+	font-size: 14px;
+	margin-top: 6px;
+}
+.order{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.order li{
+	width:360px;
+	height:35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+.order a{
+	display: block;
+	width:360px;
+	height:35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #333;
+}
+.order li:hover{
+	background: #f7f7f7;
+}
+.order i{
+	color: #999;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 18px;
+}
+.order span{
+	display: inline-block;
+	color: #EF4238;
+	float: right;
+	font-size: 12px;
+}
+.order1 span{
+	color: #fdb863;
+}
+.winner2{
+	width:360px;
+	height:105px;
+	padding-left: 20px;
+	margin-top: 30px;
+}
+.winner21{
+	width:40px;
+	height:100%;
+	float: left;
+	background: #ef4238;
+}
+.winner21 h5{
+	width:20px;
+	height:100%;
+	font-size: 17px;
+	color: #fff;
+	margin: 10px auto 0;
+}
+.winner22{
+	width:320px;
+	height:100%;
+	float: left;
+	border:1px solid #eee;
+	border-left: none;
+	box-sizing: border-box;
+	padding-left: 20px;
+}
+.num{
+	width:289px;
+	height:40px;
+	margin-top: 26px;
+	color: #EF4238;
+	font-size: 14px;
+}
+.num span{
+	font-size: 26px;
+	font-weight: 600;
+}
+.num a{
+	float: right;
+	color: #EF4238;
+	margin-top: 10px;
+}
+.num b{
+	font-size: 18px;
+}
+.winner22 p{
+	color: #999;
+	font-size: 14px;
+}
+.winner22 p span{
+	float: right;
+	margin-right: 10px;
+}

@@ -1,0 +1,64 @@
+.container{
+	margin-top: 81px;
+}
+.shangjia{
+	width:1200px;
+	height:42px;
+	margin: 30px auto;
+	
+}
+.shangjia1{
+	float: right;
+	margin: 30px 40px 0 0;
+}
+.shangjia1 a{
+	display: block;
+	width:60px;
+	height:20px;
+	border: 1px solid #f03d37;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #f03d37;
+    border-radius: 22.5px;
+}
+.shopping{
+	width:1164px;
+	min-height:200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.shopping li{
+	width:380px;
+	height:353px;
+	float: left;
+	margin-top: 30px;
+}
+.shopping a{
+	display: block;
+	width:285px;
+	height:353px;
+	padding-left: 48px;
+}
+.shopping img{
+	width:285px;
+	height:285px;
+}
+.shop1{
+	display: block;
+	width:100%;
+	height: 48px;
+	padding-top: 20px;
+}
+.shop1 p{
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+.shop1 strong{
+	color: #EF4238;
+}
+.shop1 span{
+	text-decoration: line-through;
+	color: #aaa;
+	margin-left: 5px;
+}
